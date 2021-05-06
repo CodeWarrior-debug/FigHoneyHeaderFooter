@@ -1,0 +1,18 @@
+:root {
+    --brown: #4F3501;
+    --white: #FFFFFF;
+    --yellow: #CDA435;
+}
+
+header {
+    background-color: var(--brown);
+}
+
+main {
+    background-color: var(--white);
+}
+
+
+footer {
+    background-color: var(--yellow)
+}
