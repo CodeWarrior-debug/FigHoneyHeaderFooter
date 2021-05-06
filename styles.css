@@ -9,10 +9,12 @@ body{
 }
 
 header {
-    background-color: var(--brown);
-    display:grid;
-    height: 8vh;
-    text-align: right;
+    background-color: var(--white);
+    display:flex;
+    height: 4vh;
+    /* text-align: right; */
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .whitetxt{
@@ -28,9 +30,15 @@ header {
     color:var(--yellow);
 }
 
+
 .goofymessage {
     background-color: var(--white);
     height: 84vh;
+    background-image:url('./assets/rugby_scream.jpg');
+    color: black;
+    font-weight: bolder;
+    font-size:175%;
+    text-shadow: 2px 2px #ff0000
 }
 
 .flexrow{
