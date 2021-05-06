@@ -11,11 +11,17 @@ body{
 header {
     background-color: var(--brown);
     display:grid;
-    height: 8%;
+    height: 8vh;
+    text-align: right;
 }
 
 .whitetxt{
     color:var(--white);
+    text-decoration:none;
+}
+
+.browntxt{
+    color:var(--brown);
 }
 
 .yellowtxt{
@@ -24,13 +30,18 @@ header {
 
 .goofymessage {
     background-color: var(--white);
-    height: 84%;
+    height: 84vh;
 }
 
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: false;
+}
 
 footer {
     background-color: var(--brown);
-    height:8%;
+    height:8vh;
     display: grid;
     grid-template-columns: 15% 70% 15%;
     grid-template-rows: 8% 84% 8%;
