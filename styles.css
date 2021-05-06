@@ -12,7 +12,6 @@ header {
     background-color: var(--white);
     display:flex;
     height: 4vh;
-    /* text-align: right; */
     align-items: center;
     justify-content: flex-end;
 }
@@ -30,7 +29,6 @@ header {
     color:var(--yellow);
 }
 
-
 .goofymessage {
     background-color: var(--white);
     height: 84vh;
@@ -43,16 +41,27 @@ header {
 
 .flexrow{
     display: flex;
-    flex-direction: row;
-    flex-wrap: false;
+    flex-direction: flex-start;
+    
 }
 
 footer {
     background-color: var(--brown);
     height:8vh;
-    display: grid;
+    /* display: grid;
     grid-template-columns: 15% 70% 15%;
-    grid-template-rows: 8% 84% 8%;
+    grid-template-rows: 8% 84% 8%; */
+}
+
+.internal_links{
+    display: flex;
+    flex-direction: flex-start;
+    justify-content: center;
+    padding-top: 1vh;
+}
+
+.xunderline{
+text-decoration: none;
 }
 
 /* https://cssgridgarden.com/ */
