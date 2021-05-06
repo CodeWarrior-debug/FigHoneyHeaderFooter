@@ -4,6 +4,10 @@
     --yellow: #CDA435;
 }
 
+body{
+    height: 100vh;
+}
+
 header {
     background-color: var(--brown);
     display:grid;
