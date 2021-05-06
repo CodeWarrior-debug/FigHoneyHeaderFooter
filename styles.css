@@ -6,6 +6,7 @@
 
 header {
     background-color: var(--brown);
+    display:grid;
 }
 
 main {
@@ -19,3 +20,6 @@ footer {
     grid-template-columns: 15% 70% 15%;
     grid-template-rows: 8% 84% 8%;
 }
+
+/* https://cssgridgarden.com/ */
+/* https://css-tricks.com/snippets/css/complete-guide-grid/ */
