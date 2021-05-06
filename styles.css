@@ -4,64 +4,64 @@
     --yellow: #CDA435;
 }
 
-body{
+body {
     height: 100vh;
 }
 
 header {
     background-color: var(--white);
-    display:flex;
+    display: flex;
     height: 4vh;
     align-items: center;
     justify-content: flex-end;
 }
 
-.whitetxt{
-    color:var(--white);
-    text-decoration:none;
+.whitetxt {
+    color: var(--white);
+    text-decoration: none;
 }
 
-.browntxt{
-    color:var(--brown);
+.browntxt {
+    color: var(--brown);
 }
 
-.yellowtxt{
-    color:var(--yellow);
+.yellowtxt {
+    color: var(--yellow);
 }
 
 .goofymessage {
     background-color: var(--white);
     height: 84vh;
-    background-image:url('./assets/rugby_scream.jpg');
+    background-image: url('./assets/rugby_scream.jpg');
     color: black;
     font-weight: bolder;
-    font-size:175%;
+    font-size: 175%;
     text-shadow: 2px 2px #ff0000
 }
 
-.flexrow{
+.flexrow {
     display: flex;
     flex-direction: flex-start;
-    
+
 }
 
 footer {
     background-color: var(--brown);
-    height:8vh;
+    height: 8vh;
     /* display: grid;
     grid-template-columns: 15% 70% 15%;
     grid-template-rows: 8% 84% 8%; */
 }
 
-.internal_links{
+.internal_links {
     display: flex;
     flex-direction: flex-start;
     justify-content: center;
     padding-top: 1vh;
 }
 
-.xunderline{
-text-decoration: none;
+.xunderline {
+    text-decoration: none;
 }
 
 /* https://cssgridgarden.com/ */
