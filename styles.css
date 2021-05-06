@@ -7,15 +7,22 @@
 header {
     background-color: var(--brown);
     display:grid;
+    height: 8%;
 }
 
-main {
+.yellowtxt{
+    color:var(--yellow);
+}
+
+.goofymessage {
     background-color: var(--white);
+    height: 84%;
 }
 
 
 footer {
     background-color: var(--yellow);
+    height:8%;
     display: grid;
     grid-template-columns: 15% 70% 15%;
     grid-template-rows: 8% 84% 8%;
