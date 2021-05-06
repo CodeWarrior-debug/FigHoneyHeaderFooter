@@ -10,6 +10,10 @@ header {
     height: 8%;
 }
 
+.whitetxt{
+    color:var(--white);
+}
+
 .yellowtxt{
     color:var(--yellow);
 }
