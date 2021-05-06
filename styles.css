@@ -14,5 +14,8 @@ main {
 
 
 footer {
-    background-color: var(--yellow)
+    background-color: var(--yellow);
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 8% 84% 8%;
 }
