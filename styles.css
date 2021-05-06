@@ -25,7 +25,7 @@ header {
 
 
 footer {
-    background-color: var(--yellow);
+    background-color: var(--brown);
     height:8%;
     display: grid;
     grid-template-columns: 15% 70% 15%;
