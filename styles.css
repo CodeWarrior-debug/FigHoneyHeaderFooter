@@ -10,8 +10,12 @@ body {
 
 header {
     background-color: var(--white);
-    display: flex;
+    display: block;
     height: 4vh;
+}
+
+.shift{
+    display:flex;
     align-items: center;
     justify-content: flex-end;
 }
@@ -62,6 +66,23 @@ footer {
 
 .xunderline {
     text-decoration: none;
+}
+
+.baselinkL{
+    display:flex;
+    flex-direction:row;
+    margin-left: 4%;
+    margin-right: 2%;
+    width: 45%;
+    flex-wrap: nowrap;
+}
+
+.baselinkR{
+    display: flex;
+    flex-direction:row;
+    margin-left: 2%;
+    margin-right: 4%;
+    width: 45%;
 }
 
 /* https://cssgridgarden.com/ */
